@@ -1,0 +1,41 @@
+# Drift detection: the taxonomy is edited in the Ethereum TV admin dashboard,
+# so this repo can fall behind production without anyone noticing. Once a month
+# (and on demand) this re-runs the export against the live database; if any
+# file changed, it opens a pull request with the refreshed export for review.
+# No drift, no PR. Requires the SUPABASE_URL and SUPABASE_ANON_KEY repo secrets.
+name: Sync from production
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Export taxonomy from production
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: node scripts/export.mjs
+      - name: Open a PR if anything drifted
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: taxonomy-sync
+          commit-message: 'Sync taxonomy from production'
+          title: 'Sync taxonomy from production'
+          body: >
+            The live taxonomy changed (an admin-dashboard edit, most likely) and
+            this repo was behind. This PR carries the refreshed export of
+            data/taxonomy.json, data/taxonomy.csv, taxonomy.md, and the README
+            map section. Review the diff, then merge to bring the public map
+            back in line with what ethereumtv.co serves.

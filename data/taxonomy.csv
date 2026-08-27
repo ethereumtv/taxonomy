@@ -1,0 +1,130 @@
+slug,name,parent,surfaces_in,url,sort_order,color,description
+protocol,Protocol,,,https://ethereumtv.co/topics/protocol,1,#ffb54e,"Ethereum's base layer: how blocks get made, validated, and upgraded."
+staking,Staking & Validators,protocol,,https://ethereumtv.co/topics/protocol/staking,1,,"Running validators: hardware, setup, rewards, slashing, and solo, pooled, and distributed operation."
+upgrades,Network Upgrades,protocol,,https://ethereumtv.co/topics/protocol/upgrades,2,,"Past and planned hard forks, the proposal process behind them, and the long-term roadmap."
+l1-scaling,L1 Scaling,protocol,,https://ethereumtv.co/topics/protocol/l1-scaling,3,,"Raising what the base layer itself can handle: gas limit increases, state management and statelessness, and proving L1 execution with zero-knowledge proofs."
+evm,EVM,protocol,,https://ethereumtv.co/topics/protocol/evm,4,,"The Ethereum Virtual Machine and how it evolves: execution, opcodes, state, and bytecode formats."
+mev,MEV,protocol,,https://ethereumtv.co/topics/protocol/mev,5,,"Value extracted from transaction ordering, and the block-building supply chain around it, including proposer-builder separation and censorship pressure."
+gas,Gas & Fees,protocol,,https://ethereumtv.co/topics/protocol/gas,6,,"What it costs to use Ethereum: fee markets, gas pricing, and the work to make transactions cheaper."
+issuance,Issuance & Burn,protocol,,https://ethereumtv.co/topics/protocol/issuance,7,,"Where ETH comes from and where it goes: issuance policy, the burn, net supply, and the monetary debate."
+clients,Clients & Nodes,protocol,developers,https://ethereumtv.co/topics/protocol/clients,8,,"Client implementations and running them: why diversity protects the network, and how to operate a node or reach one through a provider."
+account-abstraction,Account Abstraction,protocol,wallets,https://ethereumtv.co/topics/protocol/account-abstraction,9,,"Smart contract accounts, the standards bringing them to every address, and the passkeys, gas sponsorship, and session keys they enable."
+layer-2,Layer 2s,,,https://ethereumtv.co/topics/layer-2,2,#ff889e,Rollups and the networks that scale Ethereum beyond the base layer.
+optimistic-rollups,Optimistic Rollups,layer-2,,https://ethereumtv.co/topics/layer-2/optimistic-rollups,1,,Rollups that assume validity and rely on fraud proofs to challenge bad state.
+zk-rollups,ZK Rollups,layer-2,,https://ethereumtv.co/topics/layer-2/zk-rollups,2,,Rollups that prove every state transition correct before it settles.
+data-availability,Data Availability,layer-2,,https://ethereumtv.co/topics/layer-2/data-availability,3,,"How rollups publish data so anyone can reconstruct state, including blob space and external availability layers."
+sequencing,Sequencing,layer-2,,https://ethereumtv.co/topics/layer-2/sequencing,4,,"Who orders L2 transactions: single sequencers, decentralized sequencer networks, and delegating ordering back to L1."
+appchains,Appchains & L3s,layer-2,,https://ethereumtv.co/topics/layer-2/appchains,5,,"Launching your own chain: application-specific chains, the frameworks to deploy them, and when sovereignty pays off."
+economics,Layer 2 Economics,layer-2,,https://ethereumtv.co/topics/layer-2/economics,6,,"What it costs to operate an L2, where the fees go, and how value accrues to the chain."
+interop,Bridging & Interoperability,layer-2,developers,https://ethereumtv.co/topics/layer-2/interop,7,,"Moving assets and messages between chains, bridges and cross-chain intents, and the work to make many chains feel like one balance and one flow."
+privacy,Privacy,,,https://ethereumtv.co/topics/privacy,3,#fd706c,Cryptography for private and provable computation.
+zk-proofs,Zero-Knowledge Proofs,privacy,,https://ethereumtv.co/topics/privacy/zk-proofs,1,,"Proving systems and the tooling to build with them: how they work, what they cost, and the general-purpose virtual machines that prove arbitrary program execution."
+private-transactions,Private Transactions,privacy,,https://ethereumtv.co/topics/privacy/private-transactions,2,,"Transacting without exposing amounts, counterparties, or history, including hiding transactions before inclusion."
+confidential-computing,Confidential Computing,privacy,,https://ethereumtv.co/topics/privacy/confidential-computing,3,,"Computing on data you cannot see: secure enclaves, multi-party computation, and homomorphic encryption."
+verifiable-computation,Verifiable Computation,privacy,ai,https://ethereumtv.co/topics/privacy/verifiable-computation,4,,"Proving off-chain work was performed correctly, including machine learning inference."
+private-identity,Private Identity,privacy,wallets,https://ethereumtv.co/topics/privacy/private-identity,5,,Proving facts about yourself without revealing the underlying data.
+security,Security,,,https://ethereumtv.co/topics/security,4,#fd706c,"Keeping contracts, protocols, treasuries, and keys safe."
+auditing,Auditing,security,,https://ethereumtv.co/topics/security/auditing,1,,"Reviewing contracts for vulnerabilities: methodology, secure patterns, anti-patterns, and how the audit market works."
+formal-verification,Formal Verification,security,,https://ethereumtv.co/topics/security/formal-verification,2,,"Mathematically proving a contract behaves as specified, rather than testing that it usually does."
+exploits,Exploits,security,,https://ethereumtv.co/topics/security/exploits,3,,Breakdowns of past hacks and their post-mortems: how the attack worked and what changed afterward.
+key-management,Key Management,security,,https://ethereumtv.co/topics/security/key-management,4,,"Protecting keys in practice: secure storage, multisig, recovery, and operational security."
+cryptography,Cryptography,security,,https://ethereumtv.co/topics/security/cryptography,5,,"Cryptographic primitives in production, including signature schemes and threshold cryptography."
+post-quantum,Post-Quantum,security,protocol,https://ethereumtv.co/topics/security/post-quantum,6,,Preparing Ethereum and its applications for quantum attacks: migration paths and quantum-resistant schemes.
+testing,Testing & Fuzzing,security,developers,https://ethereumtv.co/topics/security/testing,7,,"Finding bugs automatically through fuzzing, invariant testing, coverage, and simulation against live state."
+developers,Developers,,,https://ethereumtv.co/topics/developers,5,#ffb54e,"Tools, languages, and infrastructure for building on Ethereum."
+languages,Smart Contract Languages,developers,,https://ethereumtv.co/topics/developers/languages,1,,"Languages for writing contracts, their trade-offs, and what changes between versions."
+tooling,Tooling,developers,,https://ethereumtv.co/topics/developers/tooling,2,,"Toolchains for compiling, deploying, scripting, and managing contract projects."
+indexing,Indexing & Analytics,developers,,https://ethereumtv.co/topics/developers/indexing,3,,"Turning raw chain data into queryable APIs, dashboards, and research."
+oracles,Oracles,developers,,https://ethereumtv.co/topics/developers/oracles,4,,"Bringing off-chain data on-chain, the trust assumptions involved, and the attacks that target them."
+storage,Decentralized Storage,developers,,https://ethereumtv.co/topics/developers/storage,5,,Storing files and data off-chain in permanent or distributed systems.
+education,Developer Education,developers,,https://ethereumtv.co/topics/developers/education,6,,"Learning paths, bootcamps, and getting productive as a developer new to Ethereum."
+ux,Design & UX,developers,,https://ethereumtv.co/topics/developers/ux,7,,"Designing usable crypto products: interface patterns, user research, and the craft of making self-custody and onchain flows understandable."
+wallets,Wallets,,,https://ethereumtv.co/topics/wallets,6,#ff74c6,"How people hold keys, sign transactions, and prove who they are."
+embedded-wallets,Embedded Wallets,wallets,,https://ethereumtv.co/topics/wallets/embedded-wallets,1,,Wallets built directly into applications so users never install a separate app or see a seed phrase.
+naming,Naming,wallets,,https://ethereumtv.co/topics/wallets/naming,2,,"Human-readable names for accounts, the records attached to them, and naming as identity."
+identity,Onchain Identity,wallets,,https://ethereumtv.co/topics/wallets/identity,3,,"Proving who you are and what you have done onchain: credentials, attestations, wallet-based sign-in, reputation, and proving you are a unique human."
+hardware-wallets,Hardware Wallets,wallets,security,https://ethereumtv.co/topics/wallets/hardware-wallets,4,,"Physical signing devices: their security architecture, how they differ, and how to choose between them."
+defi,DeFi,,,https://ethereumtv.co/topics/defi,7,#fe9449,"Onchain markets, credit, and trading."
+lending,Lending & Borrowing,defi,,https://ethereumtv.co/topics/defi/lending,1,,"Permissionless credit markets, collateral models, and the risk engines that keep them solvent."
+exchanges,Exchanges & AMMs,defi,,https://ethereumtv.co/topics/defi/exchanges,2,,"Decentralized trading venues, market maker design, and the strategy of providing liquidity to them."
+intents,Intents & Order Flow,defi,,https://ethereumtv.co/topics/defi/intents,3,,"Trading by stating a desired outcome rather than a route, and the solvers competing to fill it."
+derivatives,Derivatives,defi,,https://ethereumtv.co/topics/defi/derivatives,4,,"Onchain leverage, perpetuals, futures, options, and synthetic exposure."
+yield,Yield & Vaults,defi,,https://ethereumtv.co/topics/defi/yield,5,,"Strategies and automated vaults for earning returns, and where the yield actually comes from."
+restaking,Restaking,defi,,https://ethereumtv.co/topics/defi/restaking,6,,"Reusing staked ETH to secure additional networks, and the cascading risk it introduces."
+liquid-staking,Liquid Staking,defi,,https://ethereumtv.co/topics/defi/liquid-staking,7,,"Protocols that issue tradable tokens against staked ETH, and their governance and risk profiles."
+memecoins,Memecoins,defi,,https://ethereumtv.co/topics/defi/memecoins,8,,"Meme tokens as markets and culture: launchpad mechanics, attention-driven trading, and what their cycles reveal about onchain speculation."
+token-launches,Token Launches,defi,tokenomics,https://ethereumtv.co/topics/defi/token-launches,9,,"How new tokens reach holders: launchpads, fair launches, airdrops, vesting, and lockups."
+stablecoins,Stablecoins,,,https://ethereumtv.co/topics/stablecoins,8,#7e96fb,Digital dollars and the rails that move them.
+design-reserves,Design & Reserves,stablecoins,,https://ethereumtv.co/topics/stablecoins/design-reserves,1,,"How a peg is held and backed: collateral models, algorithmic mechanisms, reserve composition, attestation, and designs that pass yield to holders."
+issuers,Issuers & Infrastructure,stablecoins,,https://ethereumtv.co/topics/stablecoins/issuers,2,,"Who issues digital dollars and where they run: bank and fintech issuance, dedicated stablecoin chains, and the settlement rails underneath."
+payments,Payments & Merchants,stablecoins,,https://ethereumtv.co/topics/stablecoins/payments,3,,"Accepting crypto for real purchases, in person and online, including card network integration."
+remittances,Remittances,stablecoins,,https://ethereumtv.co/topics/stablecoins/remittances,4,,Cross-border transfers and the corridors where onchain rails beat traditional providers.
+ramps,Onramps & Offramps,stablecoins,,https://ethereumtv.co/topics/stablecoins/ramps,5,,"Moving between bank money and onchain money, and why exiting is harder than entering."
+programmable-payments,Programmable Payments,stablecoins,ai,https://ethereumtv.co/topics/stablecoins/programmable-payments,6,,"Payments with logic attached or initiated by software: escrow, subscriptions, streaming, and machine-to-machine micropayments."
+rwa,RWA,,,https://ethereumtv.co/topics/rwa,9,#7e96fb,"Real-world assets, institutions, and physical networks coming onchain."
+treasuries,Tokenized Treasuries,rwa,,https://ethereumtv.co/topics/rwa/treasuries,1,,Government debt and money market funds issued and traded onchain.
+securities,Tokenized Securities,rwa,,https://ethereumtv.co/topics/rwa/securities,2,,"Equities, bonds, and credit represented as onchain instruments, including private credit and invoice finance."
+real-estate,Real Estate,rwa,,https://ethereumtv.co/topics/rwa/real-estate,3,,Fractional property ownership onchain and the legal structures that make it enforceable.
+commodities,Commodities,rwa,,https://ethereumtv.co/topics/rwa/commodities,4,,"Gold, carbon, and other physical goods represented as onchain claims."
+institutions,Institutional Adoption,rwa,,https://ethereumtv.co/topics/rwa/institutions,5,,"Banks, asset managers, and corporates building on public chains, including permissioned pools, settlement, and regulated products such as exchange-traded funds."
+physical-infrastructure,Physical Infrastructure,rwa,,https://ethereumtv.co/topics/rwa/physical-infrastructure,6,,"Crypto-incentivized real-world hardware: wireless coverage, mapping and sensors, and distributed energy."
+prediction-markets,Prediction Markets,,,https://ethereumtv.co/topics/prediction-markets,10,#c084fc,Trading on outcomes and aggregating information.
+market-design,Market Design,prediction-markets,,https://ethereumtv.co/topics/prediction-markets/market-design,1,,"How outcome markets are built and whether they forecast well: pricing rules, liquidity, settlement, and the limits of thin markets."
+resolution,Resolution & Oracles,prediction-markets,,https://ethereumtv.co/topics/prediction-markets/resolution,2,,"Deciding what actually happened, and what happens when that decision is disputed."
+elections,Politics & Elections,prediction-markets,,https://ethereumtv.co/topics/prediction-markets/elections,3,,"Markets on political outcomes, their accuracy record, and their influence on coverage."
+futarchy,Futarchy & Decision Markets,prediction-markets,,https://ethereumtv.co/topics/prediction-markets/futarchy,4,,Using markets rather than votes to choose between courses of action.
+tokenomics,Tokenomics,,,https://ethereumtv.co/topics/tokenomics,11,#ff889e,Designing incentives and token systems.
+mechanism-design,Mechanism Design,tokenomics,,https://ethereumtv.co/topics/tokenomics/mechanism-design,1,,"Designing rules, auctions, and curves so self-interested participants produce the outcome you wanted."
+incentives,Points & Incentives,tokenomics,,https://ethereumtv.co/topics/tokenomics/incentives,2,,"Pre-token incentive campaigns, farming behavior, and what happens when they end."
+value-accrual,Value Accrual,tokenomics,,https://ethereumtv.co/topics/tokenomics/value-accrual,3,,Whether and how a token captures the value the protocol it governs creates.
+ai,AI,,,https://ethereumtv.co/topics/ai,12,#fe9449,Where AI systems and Ethereum meet.
+agents,Onchain Agents,ai,,https://ethereumtv.co/topics/ai/agents,1,,Autonomous software that holds keys and transacts without a human in the loop.
+data-ownership,Data Ownership,ai,,https://ethereumtv.co/topics/ai/data-ownership,2,,"Collectively owned datasets, data cooperatives, and marketplaces for training data."
+ai-development,AI for Development & Security,ai,,https://ethereumtv.co/topics/ai/ai-development,3,,"Using models to write, review, and audit contracts, and where they fall short."
+compute,Decentralized Compute,ai,rwa,https://ethereumtv.co/topics/ai/compute,4,,Distributed GPU and compute markets: how the networks are built and whether they can serve real workloads.
+social,Social,,,https://ethereumtv.co/topics/social,13,#c084fc,Decentralized social protocols and the consumer apps built on them.
+social-protocols,Social Protocols,social,,https://ethereumtv.co/topics/social/social-protocols,1,,"Networks where the social graph and content are not owned by a single company, and the portability and embedded apps that follow."
+messaging,Messaging,social,,https://ethereumtv.co/topics/social/messaging,2,,Wallet-to-wallet and decentralized messaging protocols.
+consumer-apps,Consumer Apps,social,,https://ethereumtv.co/topics/social/consumer-apps,3,,Mainstream-facing crypto products and what separates the ones that stick.
+creators,Creator Monetization,social,art,https://ethereumtv.co/topics/social/creators,4,,"How creators earn directly from an audience: tips, social tokens, subscriptions, drops, and royalties."
+art,Art & NFTs,,,https://ethereumtv.co/topics/art,14,#e768f3,"Onchain art, collectibles, and creator economies."
+nft-standards,NFT Standards,art,,https://ethereumtv.co/topics/art/nft-standards,1,,"Token standards for unique and semi-fungible assets, including tokens that hold assets or change over time."
+generative-art,Generative Art,art,,https://ethereumtv.co/topics/art/generative-art,2,,"Algorithmic art created, stored, and rendered onchain."
+marketplaces,NFT Marketplaces,art,,https://ethereumtv.co/topics/art/marketplaces,3,,"Where NFTs and collectibles trade, and the economics of those venues."
+nft-communities,NFT Communities,art,,https://ethereumtv.co/topics/art/nft-communities,4,,"Collections as identity, membership, and social signal, from profile pictures to collector communities."
+music,Music & Media,art,,https://ethereumtv.co/topics/art/music,5,,"Onchain releases, rights, and direct-to-fan models for musicians and filmmakers."
+gaming,Gaming,,,https://ethereumtv.co/topics/gaming,15,#e768f3,Onchain games and their economies.
+onchain-games,Onchain Games,gaming,,https://ethereumtv.co/topics/gaming/onchain-games,1,,"Games whose state and logic live on a blockchain, including persistent autonomous worlds that run without an owner."
+game-economies,Game Economies,gaming,,https://ethereumtv.co/topics/gaming/game-economies,2,,Designing sustainable in-game currencies and tradeable items that players genuinely own.
+game-engines,Game Engines,gaming,,https://ethereumtv.co/topics/gaming/game-engines,3,,Frameworks and engines for building games whose state lives onchain.
+governance,Governance,,,https://ethereumtv.co/topics/governance,16,#51e89d,How onchain organizations decide and execute.
+dao-tooling,DAO Tooling,governance,,https://ethereumtv.co/topics/governance/dao-tooling,1,,"Software for running an organization onchain: proposals, execution, membership, and payroll."
+voting,Voting & Delegation,governance,,https://ethereumtv.co/topics/governance/voting,2,,"How votes are cast, weighted, and handed to representatives, including quadratic and conviction schemes."
+treasury-management,Treasury Management,governance,,https://ethereumtv.co/topics/governance/treasury-management,3,,"Holding, diversifying, and deploying an organization's assets responsibly."
+governance-design,Governance Design,governance,,https://ethereumtv.co/topics/governance/governance-design,4,,"Voter apathy, capture, minimization, token design, and what makes a decision legitimate."
+ai-governance,AI in Governance,governance,ai,https://ethereumtv.co/topics/governance/ai-governance,5,,Delegating votes to agents and using models to summarize and triage proposals.
+public-goods,Public Goods,,,https://ethereumtv.co/topics/public-goods,17,#ff74c6,Funding what the market will not.
+grants,Grants & Funding,public-goods,,https://ethereumtv.co/topics/public-goods/grants,1,,"Programs that fund builders and maintainers directly, including quadratic matching and how to run a round well."
+retro-funding,Retroactive Funding,public-goods,,https://ethereumtv.co/topics/public-goods/retro-funding,2,,Rewarding work after its value is proven rather than funding promises in advance.
+foundations,Foundations & Stewardship,public-goods,,https://ethereumtv.co/topics/public-goods/foundations,3,,"The role, strategy, and spending of the institutions that steward the ecosystem."
+open-source,Open Source Sustainability,public-goods,,https://ethereumtv.co/topics/public-goods/open-source,4,,Keeping maintainers paid and projects alive beyond initial enthusiasm.
+regenerative-finance,Regenerative Finance,public-goods,,https://ethereumtv.co/topics/public-goods/regenerative-finance,5,,"Using onchain incentives for environmental and social outcomes, and the critiques of doing so."
+desci,DeSci,,,https://ethereumtv.co/topics/desci,18,#34dbd5,"Decentralized science: funding, owning, and publishing research onchain."
+research-funding,Research Funding,desci,,https://ethereumtv.co/topics/desci/research-funding,1,,"Funding science with onchain capital, from grant DAOs to community-owned research treasuries."
+research-ip,Research IP,desci,,https://ethereumtv.co/topics/desci/research-ip,2,,Turning intellectual property and research assets into onchain instruments that can be owned and traded.
+biotech,Biotech & Longevity,desci,,https://ethereumtv.co/topics/desci/biotech,3,,"Community-funded biotech, longevity research, and the DAOs organizing it."
+publishing,Open Access & Peer Review,desci,,https://ethereumtv.co/topics/desci/publishing,4,,Rebuilding publishing and review with onchain incentives and open data.
+community,Community,,,https://ethereumtv.co/topics/community,19,#51e89d,"The people, history, and culture of Ethereum."
+history,Ethereum History,community,,https://ethereumtv.co/topics/community/history,1,,Origin stories and the moments that shaped the network.
+philosophy,Philosophy & Values,community,,https://ethereumtv.co/topics/community/philosophy,2,,"Cypherpunk roots, credible neutrality, and the arguments about what Ethereum is for."
+regions,Regional Communities,community,,https://ethereumtv.co/topics/community/regions,3,,"Local ecosystems worldwide: how they form, what they build, and what they need."
+pop-up-cities,Pop-Up Cities,community,,https://ethereumtv.co/topics/community/pop-up-cities,4,,"Temporary, experimental communities that gather for weeks or months to test new ways of living and coordinating."
+network-states,Network States,community,,https://ethereumtv.co/topics/community/network-states,5,,"Digitally organized communities pursuing lasting institutions, territory, and recognition as new kinds of states."
+impact,Real-World Impact,community,,https://ethereumtv.co/topics/community/impact,6,,"Ethereum in use where it matters: financial inclusion, emerging markets, humanitarian applications, and what product-market fit looks like on the ground."
+careers,Careers,community,,https://ethereumtv.co/topics/community/careers,7,,"Getting hired, contributing, and building a professional path in the ecosystem."
+policy,Policy,,,https://ethereumtv.co/topics/policy,20,#34dbd5,"Law, regulation, and compliance."
+token-classification,Token Classification,policy,,https://ethereumtv.co/topics/policy/token-classification,1,,"When a token counts as a security, the tests that decide it, and the enforcement cases that set precedent."
+stablecoin-regulation,Stablecoin Regulation,policy,,https://ethereumtv.co/topics/policy/stablecoin-regulation,2,,"Rules for issuers of digital dollars, and state-issued digital money alongside them."
+jurisdictions,Regional Regimes & Tax,policy,,https://ethereumtv.co/topics/policy/jurisdictions,3,,"How individual jurisdictions approach crypto, including how activity is taxed."
+aml,AML & Sanctions,policy,,https://ethereumtv.co/topics/policy/aml,4,,"Know-your-customer and anti-money-laundering obligations, and where privacy tools meet sanctions enforcement."
+legal-structures,Legal Structures,policy,governance,https://ethereumtv.co/topics/policy/legal-structures,5,,Legal wrappers that give an onchain organization standing in the offline world.
