@@ -12,7 +12,10 @@ We are publishing it because a shared way to categorize Ethereum content is usef
 - **[data/aliases.json](data/aliases.json)**: search synonyms that resolve to canonical nodes
 - **[CHANGELOG.md](CHANGELOG.md)**: versions
 
-![The full Ethereum TV taxonomy: 20 topic cards with their subtopics as colored pills, as rendered on ethereumtv.co/taxonomy](media/taxonomy-map.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="media/taxonomy-map.png">
+  <img alt="The full Ethereum TV taxonomy: 20 topic cards with their subtopics as colored pills, as rendered on ethereumtv.co/taxonomy" src="media/taxonomy-map-light.png">
+</picture>
 
 ## The shape of the map
 
