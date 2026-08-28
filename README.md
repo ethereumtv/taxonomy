@@ -13,8 +13,8 @@ We are publishing it because a shared way to categorize Ethereum content is usef
 - **[CHANGELOG.md](CHANGELOG.md)**: versions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="media/taxonomy-map.png">
-  <img alt="The full Ethereum TV taxonomy: 20 topic cards with their subtopics as colored pills, as rendered on ethereumtv.co/taxonomy" src="media/taxonomy-map-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="media/taxonomy-map-readme.png">
+  <img alt="The full Ethereum TV taxonomy: 20 topic cards with their subtopics as colored pills, as rendered on ethereumtv.co/taxonomy" src="media/taxonomy-map-readme-light.png">
 </picture>
 
 ## The shape of the map
