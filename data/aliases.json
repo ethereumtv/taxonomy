@@ -36,6 +36,12 @@
     { "alias": "Onramp", "target": "ramps" },
     { "alias": "Offramp", "target": "ramps" },
     { "alias": "Autonomous Worlds", "target": "onchain-games" },
-    { "alias": "Yield Farming", "target": "yield" }
+    { "alias": "Yield Farming", "target": "yield" },
+    { "alias": "Macroeconomics", "target": "macro" },
+    { "alias": "Market Cycles", "target": "macro" },
+    { "alias": "Market Outlook", "target": "macro" },
+    { "alias": "Venture Capital", "target": "investing" },
+    { "alias": "VC", "target": "investing" },
+    { "alias": "Crypto Funds", "target": "investing" }
   ]
 }

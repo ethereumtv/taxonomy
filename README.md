@@ -39,7 +39,7 @@ Two hard rules survived every revision. First, **no company names, project names
 
 ## Shared subtopics
 
-Fourteen subtopics live under two topics at once, marked ⇄ in [taxonomy.md](taxonomy.md). Account Abstraction is protocol engineering and it is the future of wallets; Hardware Wallets are a wallet choice and a security posture. Splitting these into near-duplicate subtopics under each parent would force curators to guess and viewers to check two shelves.
+Sixteen subtopics live under two topics at once, marked ⇄ in [taxonomy.md](taxonomy.md). Account Abstraction is protocol engineering and it is the future of wallets; Hardware Wallets are a wallet choice and a security posture. Splitting these into near-duplicate subtopics under each parent would force curators to guess and viewers to check two shelves.
 
 Information architects call this a polyhierarchy, and the Nielsen Norman Group [recommends it](https://www.nngroup.com/articles/polyhierarchy/) for exactly this situation, with one safeguard we adopted wholesale: each shared subtopic has one **home** topic that owns its canonical URL, and it surfaces under at most one other topic. In the data, `parent` is the home and `surfaces_in` is the other topic. Three rules keep the mechanic honest:
 
@@ -142,6 +142,8 @@ The whole taxonomy, every name linked to its live page on Ethereum TV. This sect
 - **[Liquid Staking](https://ethereumtv.co/topics/defi/liquid-staking)** `/topics/defi/liquid-staking`: Protocols that issue tradable tokens against staked ETH, and their governance and risk profiles.
 - **[Memecoins](https://ethereumtv.co/topics/defi/memecoins)** `/topics/defi/memecoins`: Meme tokens as markets and culture: launchpad mechanics, attention-driven trading, and what their cycles reveal about onchain speculation.
 - **[Token Launches](https://ethereumtv.co/topics/defi/token-launches)** ⇄ Tokenomics `/topics/defi/token-launches`: How new tokens reach holders: launchpads, fair launches, airdrops, vesting, and lockups.
+- **[Macro](https://ethereumtv.co/topics/defi/macro)** ⇄ RWA `/topics/defi/macro`: Crypto in the wider economy: market cycles, liquidity and interest rates, outlooks, and how crypto moves with traditional markets.
+- **[Investing](https://ethereumtv.co/topics/rwa/investing)** ⇄ *(home: RWA)* `/topics/rwa/investing`: Capital allocation in crypto: venture funding and theses, funds, ETFs, treasury companies, and how institutions and individuals build positions.
 
 ### 8. [Stablecoins](https://ethereumtv.co/topics/stablecoins) `/topics/stablecoins`
 
@@ -164,7 +166,9 @@ The whole taxonomy, every name linked to its live page on Ethereum TV. This sect
 - **[Commodities](https://ethereumtv.co/topics/rwa/commodities)** `/topics/rwa/commodities`: Gold, carbon, and other physical goods represented as onchain claims.
 - **[Institutional Adoption](https://ethereumtv.co/topics/rwa/institutions)** `/topics/rwa/institutions`: Banks, asset managers, and corporates building on public chains, including permissioned pools, settlement, and regulated products such as exchange-traded funds.
 - **[Physical Infrastructure](https://ethereumtv.co/topics/rwa/physical-infrastructure)** `/topics/rwa/physical-infrastructure`: Crypto-incentivized real-world hardware: wireless coverage, mapping and sensors, and distributed energy.
+- **[Investing](https://ethereumtv.co/topics/rwa/investing)** ⇄ DeFi `/topics/rwa/investing`: Capital allocation in crypto: venture funding and theses, funds, ETFs, treasury companies, and how institutions and individuals build positions.
 - **[Decentralized Compute](https://ethereumtv.co/topics/ai/compute)** ⇄ *(home: AI)* `/topics/ai/compute`: Distributed GPU and compute markets: how the networks are built and whether they can serve real workloads.
+- **[Macro](https://ethereumtv.co/topics/defi/macro)** ⇄ *(home: DeFi)* `/topics/defi/macro`: Crypto in the wider economy: market cycles, liquidity and interest rates, outlooks, and how crypto moves with traditional markets.
 
 ### 10. [Prediction Markets](https://ethereumtv.co/topics/prediction-markets) `/topics/prediction-markets`
 

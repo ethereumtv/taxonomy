@@ -1,6 +1,6 @@
 # The Ethereum TV taxonomy
 
-20 topics, 109 subtopics, 14 of them shared between two topics. Generated from the live database by `scripts/export.mjs`; edit the database, not this file. A ⇄ marks a shared subtopic: it lives under its home topic (which owns the canonical URL) and also appears under the topic named after the arrow.
+20 topics, 111 subtopics, 16 of them shared between two topics. Generated from the live database by `scripts/export.mjs`; edit the database, not this file. A ⇄ marks a shared subtopic: it lives under its home topic (which owns the canonical URL) and also appears under the topic named after the arrow.
 
 ### 1. [Protocol](https://ethereumtv.co/topics/protocol) `/topics/protocol`
 
@@ -91,6 +91,8 @@
 - **[Liquid Staking](https://ethereumtv.co/topics/defi/liquid-staking)** `/topics/defi/liquid-staking`: Protocols that issue tradable tokens against staked ETH, and their governance and risk profiles.
 - **[Memecoins](https://ethereumtv.co/topics/defi/memecoins)** `/topics/defi/memecoins`: Meme tokens as markets and culture: launchpad mechanics, attention-driven trading, and what their cycles reveal about onchain speculation.
 - **[Token Launches](https://ethereumtv.co/topics/defi/token-launches)** ⇄ Tokenomics `/topics/defi/token-launches`: How new tokens reach holders: launchpads, fair launches, airdrops, vesting, and lockups.
+- **[Macro](https://ethereumtv.co/topics/defi/macro)** ⇄ RWA `/topics/defi/macro`: Crypto in the wider economy: market cycles, liquidity and interest rates, outlooks, and how crypto moves with traditional markets.
+- **[Investing](https://ethereumtv.co/topics/rwa/investing)** ⇄ *(home: RWA)* `/topics/rwa/investing`: Capital allocation in crypto: venture funding and theses, funds, ETFs, treasury companies, and how institutions and individuals build positions.
 
 ### 8. [Stablecoins](https://ethereumtv.co/topics/stablecoins) `/topics/stablecoins`
 
@@ -113,7 +115,9 @@
 - **[Commodities](https://ethereumtv.co/topics/rwa/commodities)** `/topics/rwa/commodities`: Gold, carbon, and other physical goods represented as onchain claims.
 - **[Institutional Adoption](https://ethereumtv.co/topics/rwa/institutions)** `/topics/rwa/institutions`: Banks, asset managers, and corporates building on public chains, including permissioned pools, settlement, and regulated products such as exchange-traded funds.
 - **[Physical Infrastructure](https://ethereumtv.co/topics/rwa/physical-infrastructure)** `/topics/rwa/physical-infrastructure`: Crypto-incentivized real-world hardware: wireless coverage, mapping and sensors, and distributed energy.
+- **[Investing](https://ethereumtv.co/topics/rwa/investing)** ⇄ DeFi `/topics/rwa/investing`: Capital allocation in crypto: venture funding and theses, funds, ETFs, treasury companies, and how institutions and individuals build positions.
 - **[Decentralized Compute](https://ethereumtv.co/topics/ai/compute)** ⇄ *(home: AI)* `/topics/ai/compute`: Distributed GPU and compute markets: how the networks are built and whether they can serve real workloads.
+- **[Macro](https://ethereumtv.co/topics/defi/macro)** ⇄ *(home: DeFi)* `/topics/defi/macro`: Crypto in the wider economy: market cycles, liquidity and interest rates, outlooks, and how crypto moves with traditional markets.
 
 ### 10. [Prediction Markets](https://ethereumtv.co/topics/prediction-markets) `/topics/prediction-markets`
 

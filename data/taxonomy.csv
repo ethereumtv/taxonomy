@@ -54,6 +54,7 @@ restaking,Restaking,defi,,https://ethereumtv.co/topics/defi/restaking,6,,"Reusin
 liquid-staking,Liquid Staking,defi,,https://ethereumtv.co/topics/defi/liquid-staking,7,,"Protocols that issue tradable tokens against staked ETH, and their governance and risk profiles."
 memecoins,Memecoins,defi,,https://ethereumtv.co/topics/defi/memecoins,8,,"Meme tokens as markets and culture: launchpad mechanics, attention-driven trading, and what their cycles reveal about onchain speculation."
 token-launches,Token Launches,defi,tokenomics,https://ethereumtv.co/topics/defi/token-launches,9,,"How new tokens reach holders: launchpads, fair launches, airdrops, vesting, and lockups."
+macro,Macro,defi,rwa,https://ethereumtv.co/topics/defi/macro,10,,"Crypto in the wider economy: market cycles, liquidity and interest rates, outlooks, and how crypto moves with traditional markets."
 stablecoins,Stablecoins,,,https://ethereumtv.co/topics/stablecoins,8,#7e96fb,Digital dollars and the rails that move them.
 design-reserves,Design & Reserves,stablecoins,,https://ethereumtv.co/topics/stablecoins/design-reserves,1,,"How a peg is held and backed: collateral models, algorithmic mechanisms, reserve composition, attestation, and designs that pass yield to holders."
 issuers,Issuers & Infrastructure,stablecoins,,https://ethereumtv.co/topics/stablecoins/issuers,2,,"Who issues digital dollars and where they run: bank and fintech issuance, dedicated stablecoin chains, and the settlement rails underneath."
@@ -68,6 +69,7 @@ real-estate,Real Estate,rwa,,https://ethereumtv.co/topics/rwa/real-estate,3,,Fra
 commodities,Commodities,rwa,,https://ethereumtv.co/topics/rwa/commodities,4,,"Gold, carbon, and other physical goods represented as onchain claims."
 institutions,Institutional Adoption,rwa,,https://ethereumtv.co/topics/rwa/institutions,5,,"Banks, asset managers, and corporates building on public chains, including permissioned pools, settlement, and regulated products such as exchange-traded funds."
 physical-infrastructure,Physical Infrastructure,rwa,,https://ethereumtv.co/topics/rwa/physical-infrastructure,6,,"Crypto-incentivized real-world hardware: wireless coverage, mapping and sensors, and distributed energy."
+investing,Investing,rwa,defi,https://ethereumtv.co/topics/rwa/investing,7,,"Capital allocation in crypto: venture funding and theses, funds, ETFs, treasury companies, and how institutions and individuals build positions."
 prediction-markets,Prediction Markets,,,https://ethereumtv.co/topics/prediction-markets,10,#c084fc,Trading on outcomes and aggregating information.
 market-design,Market Design,prediction-markets,,https://ethereumtv.co/topics/prediction-markets/market-design,1,,"How outcome markets are built and whether they forecast well: pricing rules, liquidity, settlement, and the limits of thin markets."
 resolution,Resolution & Oracles,prediction-markets,,https://ethereumtv.co/topics/prediction-markets/resolution,2,,"Deciding what actually happened, and what happens when that decision is disputed."
