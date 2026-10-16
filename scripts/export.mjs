@@ -65,7 +65,7 @@ const surfacedIn = (slug) =>
 
 // Sanity: the v14 contract.
 const shared = nodes.filter((n) => n.surfaces_in !== null)
-if (topics.length !== 20 || nodes.length - topics.length !== 109 || shared.length !== 14) {
+if (topics.length !== 20 || nodes.length - topics.length !== 111 || shared.length !== 16) {
   throw new Error(
     `unexpected shape: ${topics.length} topics, ${nodes.length - topics.length} subtopics, ${shared.length} shared`,
   )
@@ -123,7 +123,7 @@ for (const t of topics) {
   body.push('')
 }
 const legend =
-  '20 topics, 109 subtopics, 14 of them shared between two topics. Generated from the live database by `scripts/export.mjs`; edit the database, not this file. A \u21c4 marks a shared subtopic: it lives under its home topic (which owns the canonical URL) and also appears under the topic named after the arrow.'
+  `${topics.length} topics, ${nodes.length - topics.length} subtopics, ${shared.length} of them shared between two topics. Generated from the live database by \`scripts/export.mjs\`; edit the database, not this file. A \u21c4 marks a shared subtopic: it lives under its home topic (which owns the canonical URL) and also appears under the topic named after the arrow.`
 
 // --- taxonomy.md ------------------------------------------------------------
 writeFileSync(

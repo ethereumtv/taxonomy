@@ -1,6 +1,6 @@
 {
   "version": "v14",
-  "data_updated_at": "2026-08-27T19:30:11.893039+00:00",
+  "data_updated_at": "2026-10-16T08:11:28.611049+00:00",
   "license": "CC-BY-4.0",
   "source": "https://github.com/ethereumtv/taxonomy",
   "counts": {
@@ -616,6 +616,17 @@
       "color": null
     },
     {
+      "id": "b2783e64-4d6b-456f-b60f-dd8e70c363ad",
+      "slug": "macro",
+      "name": "Macro",
+      "parent": "defi",
+      "surfaces_in": "rwa",
+      "url": "https://ethereumtv.co/topics/defi/macro",
+      "description": "Crypto in the wider economy: market cycles, liquidity and interest rates, outlooks, and how crypto moves with traditional markets.",
+      "sort_order": 10,
+      "color": null
+    },
+    {
       "id": "d6ef7a40-f15c-45c4-888a-4f07d638260b",
       "slug": "stablecoins",
       "name": "Stablecoins",
@@ -767,6 +778,17 @@
       "url": "https://ethereumtv.co/topics/rwa/physical-infrastructure",
       "description": "Crypto-incentivized real-world hardware: wireless coverage, mapping and sensors, and distributed energy.",
       "sort_order": 6,
+      "color": null
+    },
+    {
+      "id": "eceb4865-1dcd-4d30-a611-171dfd8899a4",
+      "slug": "investing",
+      "name": "Investing",
+      "parent": "rwa",
+      "surfaces_in": "defi",
+      "url": "https://ethereumtv.co/topics/rwa/investing",
+      "description": "Capital allocation in crypto: venture funding and theses, funds, ETFs, treasury companies, and how institutions and individuals build positions.",
+      "sort_order": 7,
       "color": null
     },
     {
